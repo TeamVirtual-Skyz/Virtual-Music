@@ -1,6 +1,6 @@
 <img src="https://telegra.ph/file/0d2e9795b233000f3e266.jpg" align="right" width="200" height="200"/>
 
-# Prime Music Bot <img src="https://img.shields.io/github/v/release/Toni880/PrimeMusic?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+# Virtual Music <img src="https://img.shields.io/github/v/release/Toni880/PrimeMusic?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
 [Virtual-Music](https://github.com/TeamVirtual-Skyz/Virtual-Music) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
