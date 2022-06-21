@@ -28,7 +28,7 @@ async def init():
         and not config.STRING9
         and not config.STRING10
     ):
-        LOGGER("PrimeMusic").error(
+        LOGGER("Virtual-Music").error(
             "No Assistant Clients Vars Defined!.. Exiting Process."
         )
         return
@@ -36,7 +36,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("PrimeMusic").warning(
+        LOGGER("Virtual-Music").warning(
             "No Spotify Vars defined. Your bot won't be able to play spotify queries."
         )
     try:
@@ -58,13 +58,13 @@ async def init():
     await Prime.start()
     prime = await app.get_me()
     PrimeMusic = prime.username
-    await userbot.one.send_message("primesupportgroup", f"@{PrimeMusic}")
+    await userbot.one.send_message("primesupportgroup", f"@{Virtual-skyz}")
     try:
         await Prime.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("PrimeMusic").error(
+        LOGGER("Virtual-Music").error(
             "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
         )
         sys.exit()
